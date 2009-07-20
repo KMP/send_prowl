@@ -20,6 +20,8 @@ def main(cfgfile):
     
     #-----------------------
     # Default Configuration
+    # Do not change these. 
+    # Use configuration file instead.
     
     default_values = {
     'apikey' : 'NOT SET',
