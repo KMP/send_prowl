@@ -1,0 +1,43 @@
+Send iPhone Push Notifications using Prowl (Zachary West - http://prowl.weks.net/) 
+and Prowlpy (Jacob Burch - http://github.com/jacobb/prowlpy/tree/master).
+
+send_prowl.py is a simple wrapper around the prowlpy Python module for posting to the 
+iPhone Push Notification service Prowl: http://prowl.weks.net/
+
+send_prowl.py sets up and sends the actual notification
+using an external configuration file for the values.
+
+Multiple configuration files can be created for different applications and notifications.
+
+
+Your Prowl API key is needed!
+                
+Create a file named send_prowl.cfg in the 
+same location you are running send_prowl from.
+
+-- OR --
+
+Optionally, you may specify a path to the 
+configuration file as an argument:
+Example:
+    send_prowl.py c:\path\to\config.cfg
+
+The contents of this file should include 
+everything between the lines below as follows:
+
+    #----------------------
+    [DEFAULT]
+    apikey: YOUR_API_KEY_HERE #This is required
+    app: APP Name
+    event: Event Name
+    desc: Event Description
+    debug: true|false
+    #----------------------
+    
+    
+Requires:
+ConfigParser
+httplib2 (prowlpy) 
+urllib (prowlpy)
+
+    
