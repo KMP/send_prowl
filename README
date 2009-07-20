@@ -1,4 +1,4 @@
-Send iPhone Push Notifications using Prowl (Zachary West - http://prowl.weks.net/) 
+Send iPhone Push Notifications using Prowl (Zachary West - http://prowl.weks.net/ ) 
 and Prowlpy ( Jacob Burch - http://github.com/jacobb/prowlpy/tree/master ).
 
 send_prowl.py is a simple wrapper around the prowlpy Python module for posting to the 
