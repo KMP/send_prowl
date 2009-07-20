@@ -5,8 +5,8 @@ send_prowl.py V2
 
 Written by KMP, 7/9/2009
 
-Wrapper around the prowlpy (http://github.com/jacobb/prowlpy/tree/master)
-Python module for posting to the iPhone Push Notification service Prowl (http://prowl.weks.net/)
+Wrapper around the prowlpy ( http://github.com/jacobb/prowlpy/tree/master )
+Python module for posting to the iPhone Push Notification service Prowl ( http://prowl.weks.net/ )
 
 send_prowl.py sets up and sends the actual notification
 using an external configuration file for the values. 
